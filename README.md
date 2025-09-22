@@ -1,84 +1,84 @@
-☁️ Cloud Native Hosting Platform
+---
 
-This project is a next-generation hosting platform built with Microservices architecture and DevOps/Cloud-Native tools.
-The goal is to implement a modern and scalable hosting system with full automation — from server provisioning to monitoring and CI/CD.
+# ☁️ Cloud Native Hosting Platform  
 
+![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub%20Actions-blue?logo=githubactions)
+![Docker](https://img.shields.io/badge/Docker-Enabled-blue?logo=docker)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-Ready-blue?logo=kubernetes)
+![Terraform](https://img.shields.io/badge/Terraform-Infrastructure-purple?logo=terraform)
+![Prometheus](https://img.shields.io/badge/Monitoring-Prometheus-orange?logo=prometheus)
+![Grafana](https://img.shields.io/badge/Observability-Grafana-red?logo=grafana)
 
 ---
 
-🏗 Architecture Overview
-
-Infrastructure as Code → Terraform + Ansible
-
-Microservices → Python (FastAPI) / Go + PostgreSQL
-
-CI/CD → GitHub Actions / Jenkins
-
-Containerization → Docker + Kubernetes (Helm, Ingress, Service Mesh)
-
-Monitoring & Logging → Prometheus, Grafana, Loki, Jaeger
-
-Security → Vault, RBAC, Trivy
-
-
+This project is a next-generation hosting platform built with Microservices architecture and Cloud-Native/DevOps tools.  
+The goal is to build a modern, scalable, and fully automated hosting system — from infrastructure provisioning to CI/CD and monitoring.  
 
 ---
 
-📂 Project Structure
+## 🏗 Architecture Overview  
 
-(to be updated as the project grows)
-
-cloud-native-hosting/
-│── ansible/         # Ansible playbooks for provisioning
-│── terraform/       # Terraform modules for infra setup
-│── services/        # Microservices (FastAPI / Go) code
-│── k8s/             # Kubernetes manifests & Helm charts
-│── ci-cd/           # Pipelines (GitHub Actions / Jenkins)
-│── monitoring/      # Prometheus, Grafana, Loki, Jaeger configs
-│── security/        # Vault, Trivy, RBAC policies
-└── README.md        # Project documentation
-
+- Infrastructure as Code → Terraform + Ansible  
+- Microservices → Python (FastAPI) / Go + PostgreSQL  
+- CI/CD → GitHub Actions / Jenkins  
+- Containerization → Docker + Kubernetes (Helm, Ingress, Service Mesh)  
+- Monitoring & Logging → Prometheus, Grafana, Loki, Jaeger  
+- Security → Vault, RBAC, Trivy  
 
 ---
 
-🚀 Project Roadmap
+## 📊 Project Progress  
 
-1. Provision infrastructure with Terraform + Ansible
-
-
-2. Develop microservices and Dockerize them
-
-
-3. Set up the CI/CD pipeline
-
-
-4. Deploy services on Kubernetes (Helm + Service Mesh)
-
-
-5. Implement observability (Prometheus, Grafana, Loki, Jaeger)
-
-
-6. Add security & GitOps (Vault, ArgoCD)
-
-
-
+- [x] Infrastructure provisioning with Terraform + Ansible  
+- [ ] Microservices development (FastAPI + Go)  
+- [ ] Dockerize services  
+- [ ] CI/CD pipeline setup  
+- [ ] Kubernetes deployment (Helm + Service Mesh)  
+- [ ] Observability (Prometheus, Grafana, Loki, Jaeger)  
+- [ ] Security & GitOps (Vault, ArgoCD)  
 
 ---
 
-🎯 Final Goal
+## 📂 Project Structure
 
-To build a Cloud-Native Hosting Platform that is:
-
-Fully automated (provisioning + deployment)
-
-Scalable and production-ready for high traffic
-
-Enterprise-grade in monitoring and security
-
-Usable both as a portfolio project and as a real-world product
-
-
+cloud-native-hosting/ │── ansible/         # Ansible playbooks for provisioning │── terraform/       # Terraform modules for infra setup │── services/        # Microservices (FastAPI / Go) code │── k8s/             # Kubernetes manifests & Helm charts │── ci-cd/           # Pipelines (GitHub Actions / Jenkins) │── monitoring/      # Prometheus, Grafana, Loki, Jaeger configs │── security/        # Vault, Trivy, RBAC policies │── docs/            # Documentation and architecture diagrams └── README.md        # Project documentation
 
 ---
 
-✨ With this project, we aim to showcase best practices in DevOps, Cloud-Native, and Microservices development while delivering a practical and market-ready hosting solution.
+## 🖼 Architecture Diagram  
+
+> 📌 The following diagram illustrates the high-level design of the platform.  
+
+![Architecture Diagram](docs/architecture.png)  
+
+*(You can create this with [draw.io](https://app.diagrams.net) or [Excalidraw](https://excalidraw.com) and save it in the docs/ folder.)*  
+
+---
+
+## 🚀 Roadmap  
+
+1. Provision infrastructure with Terraform + Ansible  
+2. Develop and Dockerize microservices  
+3. Implement CI/CD pipelines  
+4. Deploy workloads on Kubernetes (Helm + Service Mesh)  
+5. Set up monitoring & observability (Prometheus, Grafana, Loki, Jaeger)  
+6. Add security & GitOps (Vault, ArgoCD)  
+
+---
+
+## 🎯 Final Goal  
+
+Build a Cloud-Native Hosting Platform that is:  
+- Fully automated (provisioning + deployment)  
+- Scalable and ready for production traffic  
+- Equipped with enterprise-grade monitoring and security  
+- Usable both as a portfolio project and as a real-world market solution  
+
+---
+
+## 📜 License  
+
+This project is licensed under the MIT License.
+
+
+---
