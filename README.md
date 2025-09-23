@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 
 # ☁️ Cloud Native Hosting Platform  
